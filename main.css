@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway";
+    background-color: #f1f1f1;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #173451;
+    padding: 20px 130px;
+}
+.title {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    float: right;
+}
+.title__main{
+    color: #fcbf16;
+    font-style: italic;
+}
+.img {
+    display: inline-block;
+}
+.img--logo {
+    width: 5%;
+}
+
+/* code here... */
+main {
+    padding-top: 75px;
+}
+
+.img--big-size {
+    width: 100%;
+    padding: 0 45px;
+}
+
+.container {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    width: 50%;
+    padding: 0 5px 55px;
+    line-height: 25px;
+}
+
+.ct__item--center {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ct__item--right {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
+
+.ct__item--left {
+    display: flex;
+}
+
+.ct--right {
+    padding-right: 20px;
+}
+
+.ct--left {
+    padding-left: 20px;
+}
+
+.image {
+    width: 25%;
+    height: fit-content;
+}
+
+button {
+    color: #f1f1f1;
+    padding: 10px 38px;
+    font-size: 15px;
+    border: none;
+    background-color: #fcbf16;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #fcbf16, #992154);
+}
+
+.ct__btn--big-size {
+    padding: 10px 70px;
+}
+
+footer {
+    background-color: #173451;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
